@@ -1,0 +1,9 @@
+ECgnfinder_mc.py is a program which use 1000 E. coli gene to build a 1st order markov chain and apply markov chain to test another 500 E. coli gene to do the prediction.
+
+There are three files in the folder which can be used for running the program. They are ECgnfinder_mc.py, 500_gene.fasta and gene_1000.fasta.
+
+Input: python ECgnfinder_mc.py -i [INPUT_FILE]
+
+Output: There are two output files. One is the prediction of possible genes which are in "output_gene.fasta" file and the other is predicted protein sequences after translating from the predicted genes which are in "output_protein.fasta" file. 
+
+Sample usage: python ECgnfinder_mc.py -i 500_gene.fasta  
